@@ -17,7 +17,7 @@ The README will be generated in the Develop folder.
 ## GIF  
 ![Repo View](/gifs/READMEG1.gif)  
 ![In Usage](/gifs/READMEG2.gif)  
-![Initialization] (/gifs/READMEG3.gif)  
+![Initialization](/gifs/READMEG3.gif)  
 
 ## Additional  
 
