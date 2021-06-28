@@ -7,17 +7,22 @@
 - [Additional](#additional)
 
 ## Description
-What we have here is a working password generator that was quite the effort to create properly.
+What I have made is a README generator in JavaScript. It provides the user with a series of questions in the terminal, gathers the information and returns it in a new README.md file.
 
 ## How It Works
 
-The user enters the page at the 
+If this reposity is cloned, you will need to in your terminal use "cd Develop" to change to the Develop branch, then run node index.js to begin the prompts.
+The README will be generated in the Develop folder.
 
 ## GIF
 
 ## Additional
 
-Some extra information about the resource:
+Shareable link to this repo:
 
 ### Link: **https://github.com/Mervens/ReadMe-Generator.**
+
+Creator's GitHub Profile:
+
+### Creator: **https://github.com/Mervens.**
 
