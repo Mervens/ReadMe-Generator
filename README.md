@@ -15,6 +15,9 @@ If this reposity is cloned, you will need to in your terminal use "cd Develop" t
 The README will be generated in the Develop folder.
 
 ## GIF
+![Repo View](https://gyazo.com/b761bed9e650e075e073a84fb2ffa3c7)
+![In Usage](https://gyazo.com/b3941d71ce2ea920b5e37153ac5b769e)
+![Initializaiton](https://gyazo.com/3966b00a4c22658a85453d19c90f452b)
 
 ## Additional
 
