@@ -72,7 +72,7 @@ const questions = [
             if (licensingInput) {
                 return true;
             } else {
-                console.log('You must pick a license for the project!');
+                console.log('The liscense you have selected is invalid. Valid liscenses are "Apache, MIT, Mozilla-Public, GNU-General-Public, Common-Development-and Distribution, and None');
                 return false;
             }
         }
@@ -82,7 +82,7 @@ const questions = [
     {
         type: 'input',
         name: 'contribution',
-        message: 'How should people contribute to this project? (Required)',
+        message: 'In what ways can a user contribute to this application?',
         validate: contributionInput => {
             if (contributionInput) {
                 return true;
@@ -96,37 +96,36 @@ const questions = [
     {
         type: 'input',
         name: 'testing',
-        message: 'How do you test this project? (Required)',
+        message: 'How does a user test the application premptively?',
         validate: testingInput => {
             if (testingInput) {
                 return true;
             } else {
-                console.log('You need to describe how to test this project!');
+                console.log('Please add a method for testing to this application.');
                 return false;
             }
         }
     },
-    // License Options
 
     // Github Username
     {
         type: 'input',
         name: 'github',
-        message: 'Enter your GitHub Username (Required)',
+        message: 'Enter your GitHub Username for access to your repositories.',
         validate: githubInput => {
             if (githubInput) {
                 return true;
             } else {
-                console.log('Please enter your GitHub username!');
+                console.log('Please enter a valid GitHub user.');
                 return false;
             }
         }
     },
-    // Email Address
+    // Email Address Added for Contact
     {
         type: 'input',
         name: 'email',
-        message: 'Would you like to include your email?',
+        message: 'Would you like to include your email for further contact?',
     },
 ];
 
