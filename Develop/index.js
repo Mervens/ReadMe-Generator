@@ -54,19 +54,22 @@ const questions = [
     6. [License](#license)
 
     ## Project Title
-    * ${answers.title}
+    * ${answers.title}  
     ## Description
-    * ${answers.description}
+    * ${answers.description}  
     ## Installation
-    * ${answers.install}
+    * ${answers.install}  
     ## Usage Guide
-    * ${answers.usage}
+    * ${answers.usage}  
     ## Contributions
-    * ${answers.contribution}
+    * ${answers.contribution}  
     ## Testing Info
-    * ${answers.test}
+    * ${answers.test}  
     ## Licensing
-    * Application licensed under ${answers.license}`
+    * Application licensed under ${answers.license} 
+    ## Creator Info
+    * GitHub: [${data.github}](https://github.com/${data.github})
+    * Email: ${data.email} `
     },
 
     // Installation Instructions
@@ -113,7 +116,7 @@ const questions = [
         }
     },
 
-    // Contribution Guidlines
+    // Contribution Guidelines
     {
         type: 'input',
         name: 'contribution',
@@ -122,7 +125,7 @@ const questions = [
             if (contributionInput) {
                 return true;
             } else {
-                console.log('You need to provide information on how to contribute to the project!');
+                console.log('You need to provide information on how to contribute. Please input a response.');
                 return false;
             }
         }
