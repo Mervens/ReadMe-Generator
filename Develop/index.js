@@ -77,7 +77,7 @@ const questions = [
     // Installation Instructions
     {
         type: 'input',
-        name: 'installation',
+        name: 'install',
         message: 'How do you install your application to our project?',
         validate: installationInput => {
             if (installationInput) {
@@ -105,7 +105,7 @@ const questions = [
     // Licensing option (Liscences taken from list off https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
     {
         type: 'checkbox',
-        name: 'licensing',
+        name: 'license',
         message: 'Choose a license to use for this project. Any or none is satisfactory.',
         choices: ['Apache', 'MIT', 'Mozilla-Public', 'GNU-General-Public', 'Common-Development-and Distribution', 'None'],
         validate: licensingInput => {
@@ -135,7 +135,7 @@ const questions = [
     // Tests comes before last
     {
         type: 'input',
-        name: 'testing',
+        name: 'test',
         message: 'How does a user test the application premptively?',
         validate: testingInput => {
             if (testingInput) {
