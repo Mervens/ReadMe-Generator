@@ -19,5 +19,5 @@ The user enters the page at the
 
 Some extra information about the resource:
 
-### Link: **https://mervens.github.io/Password-Generator-C3/.**
+### Link: **https://github.com/Mervens/ReadMe-Generator.**
 
