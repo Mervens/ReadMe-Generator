@@ -15,9 +15,9 @@ If this reposity is cloned, you will need to in your terminal use "cd Develop" t
 The README will be generated in the Develop folder.
 
 ## GIF
-![Repo View](/README Gen 1.gif)  
-![In Usage](/README Gen 2.gif)  
-![Initialization](/README Gen 3.gif)  
+![Repo View](gifs/README Gen 1.gif)  
+![In Usage](gifs/README Gen 2.gif)  
+![Initialization](gifs/README Gen 3.gif)  
 
 ## Additional
 
