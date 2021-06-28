@@ -45,6 +45,8 @@ const questions = [
 
     3. [Installation](#installation)
 
+    3. [Usage Guide](#usage)
+
     4. [Contributors](#contribution)
 
     5. [Testing Info](#test)
@@ -53,13 +55,15 @@ const questions = [
 
     ## Project Title
     * ${answers.title}
-    ## Installation Instructions
+    ## Description
+    * ${answers.description}
+    ## Installation
     * ${answers.install}
-    ## Usage Information
-    * ${answers.use}
+    ## Usage Guide
+    * ${answers.usage}
     ## Contributions
     * ${answers.contribution}
-    ## Test Instructions
+    ## Testing Info
     * ${answers.test}
     ## Licensing
     * Application licensed under ${answers.license}`
