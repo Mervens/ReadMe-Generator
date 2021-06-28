@@ -4,7 +4,7 @@
 - [Description](#description)
 - [How It Works](#how-it-works)
 - [Example GIF](#gif)
-- [Additional] (#additional)
+- [Additional](#additional)
 
 ## Description
 What we have here is a working password generator that was quite the effort to create properly.
