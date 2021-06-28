@@ -12,27 +12,29 @@ function generateREADME(answers) {
 
 2. [Description](#description)
 
-3. [Installation](#installation)
+3. [Installation](#installing)
 
-3. [Usage Guide](#usage)
+4. [Usage Guide](#usage)
 
-4. [Contributors](#contribution)
+5. [Contributors](#contribution)
 
-5. [Testing Info](#test)
+6. [Testing Info](#test)
 
-6. [License](#license)
+7. [License](#licensing)
 
-## Project Title
+8. [Creator Info](#creator-info)
+
+## Title
 * ${answers.title}  
 ## Description
 * ${answers.description}  
-## Installation
+## Installing
 * ${answers.install}  
-## Usage Guide
+## Usage
 * ${answers.usage}  
-## Contributions
+## Contribution
 * ${answers.contribution}  
-## Testing Info
+## Test
 * ${answers.test}  
 ## Licensing
 * Application licensed under ${answers.license} 
