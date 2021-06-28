@@ -10,7 +10,7 @@
 
 3. [Usage Guide](#usage-guide)
 
-4. [Contributors](#contribution)
+4. [Contributors](#contributions)
 
 5. [Testing Info](#testing-info)
 
