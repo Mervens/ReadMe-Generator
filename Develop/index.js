@@ -34,6 +34,37 @@ const questions = [
         }
     },
     // ToC (Table of...)
+ function generateREADME(answers) {
+        return `# ${answers.project_title}
+
+    #### Table of Contents
+
+    1. [Project Title](#title)
+
+    2. [Description](#description)
+
+    3. [Installation](#installation)
+
+    4. [Contributors](#contribution)
+
+    5. [Testing Info](#test)
+
+    6. [License](#license)
+
+    ## Project Title
+    * ${answers.title}
+    ## Installation Instructions
+    * ${answers.install}
+    ## Usage Information
+    * ${answers.use}
+    ## Contributions
+    * ${answers.contribution}
+    ## Test Instructions
+    * ${answers.test}
+    ## Licensing
+    * Application licensed under ${answers.license}`
+    },
+
     // Installation Instructions
     {
         type: 'input',
@@ -134,12 +165,18 @@ function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => {
         if (err)
             throw err;
-        console.log('Success! Information transferred to the README!')
+        console.log('Your information has been successfully saved and logged to the README.')
     });
 };
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+        inquirer.prompt(questions)
+        .then(function (userInput) {
+            console.log(userInput)
+            writeToFile("README.md", generateMarkdown(userInput));
+        });
+    };
 
 // Function call to initialize app
 init();
