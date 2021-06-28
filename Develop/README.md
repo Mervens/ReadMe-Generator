@@ -6,17 +6,17 @@
 
 2. [Description](#description)
 
-3. [Installation](#install)
+3. [Installation](#installation)
 
-3. [Usage Guide](#usage)
+3. [Usage Guide](#usage-guide)
 
 4. [Contributors](#contribution)
 
-5. [Testing Info](#test)
+5. [Testing Info](#testing-info)
 
-6. [License](#license)
+6. [License](#licensing)
 
-## Project Title
+## Title
 * Jack and the Beanstalk  
 ## Description
 * Jeez I have to write all this again? It's a quick recollection of Jack and the Beanstalk.  
