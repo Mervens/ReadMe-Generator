@@ -1,3 +1,21 @@
-# Professional README Generator Starter Code
+# Mervens Victor: Read-Me Generator
 
-[How to create a Professional README](./readme-guide.md)
+# Table Of Contents
+- [Description](#description)
+- [How It Works](#how-it-works)
+- [Example GIF](#gif)
+- [Additional] (#additional)
+
+## Description
+What we have here is a working password generator that was quite the effort to create properly.
+
+## How It Works
+
+The user enters the page at the 
+
+## GIF
+
+## Additional
+
+### Link: **https://mervens.github.io/Password-Generator-C3/.**
+

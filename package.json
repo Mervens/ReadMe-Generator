@@ -1,0 +1,27 @@
+{
+  "name": "read-me",
+  "version": "1.0.0",
+  "description": "a professional read-me generator application",
+  "main": "index.js",
+  "scripts": {
+    "test": "unknown"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mervens/ReadMe-Generator.git"
+  },
+  "keywords": [
+    "challenge",
+    "read-me",
+    "generator"
+  ],
+  "author": "mervens",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mervens/ReadMe-Generator/issues"
+  },
+  "homepage": "https://github.com/Mervens/ReadMe-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.1.1"
+  }
+}
