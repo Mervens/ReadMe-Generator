@@ -2,6 +2,45 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
+
+function generateREADME(answers) {
+    return `# ${answers.title}
+
+#### Table of Contents
+
+1. [Project Title](#title)
+
+2. [Description](#description)
+
+3. [Installation](#installation)
+
+3. [Usage Guide](#usage)
+
+4. [Contributors](#contribution)
+
+5. [Testing Info](#test)
+
+6. [License](#license)
+
+## Project Title
+* ${answers.title}  
+## Description
+* ${answers.description}  
+## Installation
+* ${answers.install}  
+## Usage Guide
+* ${answers.usage}  
+## Contributions
+* ${answers.contribution}  
+## Testing Info
+* ${answers.test}  
+## Licensing
+* Application licensed under ${answers.license} 
+## Creator Info
+* GitHub: [${answers.github}](https://github.com/${answers.github})
+* Email: ${answers.email} `
+}
+
 // TODO: Create an array of questions for user input
 const questions = [
 
@@ -33,44 +72,7 @@ const questions = [
             }
         }
     },
-    // ToC (Table of...)
- function generateREADME(answers) {
-        return `# ${answers.project_title}
-
-    #### Table of Contents
-
-    1. [Project Title](#title)
-
-    2. [Description](#description)
-
-    3. [Installation](#installation)
-
-    3. [Usage Guide](#usage)
-
-    4. [Contributors](#contribution)
-
-    5. [Testing Info](#test)
-
-    6. [License](#license)
-
-    ## Project Title
-    * ${answers.title}  
-    ## Description
-    * ${answers.description}  
-    ## Installation
-    * ${answers.install}  
-    ## Usage Guide
-    * ${answers.usage}  
-    ## Contributions
-    * ${answers.contribution}  
-    ## Testing Info
-    * ${answers.test}  
-    ## Licensing
-    * Application licensed under ${answers.license} 
-    ## Creator Info
-    * GitHub: [${data.github}](https://github.com/${data.github})
-    * Email: ${data.email} `
-    },
+    // ToC (Table of...) EDIT: Tried to put it here, application didn't run!
 
     // Installation Instructions
     {
@@ -104,7 +106,7 @@ const questions = [
     {
         type: 'checkbox',
         name: 'licensing',
-        message: 'Choose a license for your project (Required)',
+        message: 'Choose a license to use for this project. Any or none is satisfactory.',
         choices: ['Apache', 'MIT', 'Mozilla-Public', 'GNU-General-Public', 'Common-Development-and Distribution', 'None'],
         validate: licensingInput => {
             if (licensingInput) {
@@ -181,7 +183,7 @@ function init() {
         inquirer.prompt(questions)
         .then(function (userInput) {
             console.log(userInput)
-            writeToFile("README.md", generateMarkdown(userInput));
+            writeToFile("README.md", generateREADME(userInput));
         });
     };
 
