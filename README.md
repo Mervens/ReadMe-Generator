@@ -17,5 +17,7 @@ The user enters the page at the
 
 ## Additional
 
+Some extra information about the resource:
+
 ### Link: **https://mervens.github.io/Password-Generator-C3/.**
 
