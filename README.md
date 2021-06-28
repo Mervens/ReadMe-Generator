@@ -21,6 +21,8 @@ The README will be generated in the Develop folder.
 
 ## Additional  
 
+### The sample readme is the readme in the Develop branch.
+
 Shareable link to this repo:  
 
 ### Link: **https://github.com/Mervens/ReadMe-Generator.**  
